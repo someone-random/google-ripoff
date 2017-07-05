@@ -5,33 +5,37 @@ ul{
     float:right;
 }
 li{
-    display:inline-block
+    display:inline-block;
 }
 a{
     color:grey;
     text-decoration:none;
 }
 img{
-    position:absolute;
-    float:left;
+    width:30%;
+    margin-left:35%;
 }
 table{
     float:left;
+    margin-left:32.5%;
+    margin-top:5px;
 }
 .square{
-    height:50px;
-    width: 50px;
-    background-color:grey;
+    height:150px;
+    width: 150px;
+    background-color:#e1e1e1;
+    margin:5px;
     clear:both;
 }
 p{
     margin-left:1%;
-    font-size:10px;
+    font-size:12px;
 }
 #search{
     width:50%;
     height: 2%;
     border:solid grey 1px;
     color:grey;
-    float:left;
+    clear:both;
+    margin-left:25%;
 }
