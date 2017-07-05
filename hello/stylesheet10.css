@@ -2,7 +2,7 @@ ul{
     color: grey;
     margin-left:80%;
     clear:both;
-    position:fixed;
+    float:right;
 }
 li{
     display:inline-block
@@ -10,14 +10,13 @@ li{
 a{
     color:grey;
     text-decoration:none;
-
 }
 img{
-    margin:auto;
     position:absolute;
+    float:left;
 }
 table{
-    margin:auto;
+    float:left;
 }
 .square{
     height:50px;
@@ -32,7 +31,7 @@ p{
 #search{
     width:50%;
     height: 2%;
-    margin:auto;
     border:solid grey 1px;
     color:grey;
+    float:left;
 }
